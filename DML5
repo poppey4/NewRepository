@@ -1,2 +1,0 @@
-ALTER TABLE test1.mytable ADD col5 VARCHAR(87)      ;
-
