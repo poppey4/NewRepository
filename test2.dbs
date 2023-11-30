@@ -8,6 +8,7 @@
 			<column name="col1" type="VARCHAR" length="77" jt="12" />
 			<column name="column5" prior="col5" type="VARCHAR" length="87" jt="12" />
 			<column name="col6" type="VARCHAR" length="67" jt="12" />
+			<column name="col7" type="VARCHAR" length="44" jt="12" />
 			<options><![CDATA[engine=InnoDB]]></options>
 		</table>
 	</schema>
