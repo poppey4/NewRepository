@@ -11,4 +11,5 @@ CREATE  TABLE test1.mytable (
 ALTER TABLE test1.mytable ADD col7 VARCHAR(44)      ;
 
 ALTER TABLE test1.mytable ADD col8 VARCHAR(55)      ;
+ALTER TABLE test1.mytable ADD col9 VARCHAR(55)      ;
 
