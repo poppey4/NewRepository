@@ -1,8 +1,4 @@
-CREATE SCHEMA test1;
+ALTER TABLE test1.mytable MODIFY col1 VARCHAR(77)  NULL ;
 
-CREATE  TABLE test1.mytable ( 
-	col1                 VARCHAR(34)       ,
-	col2                 VARCHAR(66)       ,
-	col3                 VARCHAR(44)       
- ) engine=InnoDB;
+ALTER TABLE test1.mytable ADD col4 VARCHAR(44)      ;
 
