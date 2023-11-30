@@ -8,3 +8,5 @@ CREATE  TABLE test1.mytable (
 	column5              VARCHAR(87)       ,   
  ) engine=InnoDB;
 
+ALTER TABLE test1.mytable ADD col7 VARCHAR(44)      ;
+
