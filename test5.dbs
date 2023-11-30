@@ -6,7 +6,7 @@
 			<column name="col2" type="VARCHAR" length="66" jt="12" />
 			<column name="col3" type="VARCHAR" length="44" jt="12" />
 			<column name="col1" type="VARCHAR" length="77" jt="12" />
-			<column name="col5" prior="column5" type="VARCHAR" length="87" jt="12" />
+			<column name="column5" prior="col5" type="VARCHAR" length="87" jt="12" />
 			<options><![CDATA[engine=InnoDB]]></options>
 		</table>
 	</schema>
