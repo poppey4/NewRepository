@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="test1" id="Project-2056" database="MySql" >
+	<schema name="test1" >
+		<table name="mytable" prior="tbl" >
+			<column name="col4" prior="col1" type="VARCHAR" length="44" jt="12" />
+			<column name="col2" type="VARCHAR" length="66" jt="12" />
+			<column name="col3" type="VARCHAR" length="44" jt="12" />
+			<column name="col1" type="VARCHAR" length="77" jt="12" />
+			<column name="column5" prior="col5" type="VARCHAR" length="87" jt="12" />
+			<column name="col6" type="VARCHAR" length="67" jt="12" />
+			<column name="col7" type="VARCHAR" length="44" jt="12" />
+			<column name="col8" type="VARCHAR" length="55" jt="12" />
+			<column name="col10" type="VARCHAR" length="77" jt="12" />
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+	</schema>
+	<layout name="Default Layout" id="Layout-9b7" show_relation="columns" >
+		<entity schema="test1" name="mytable" color="C1D8EE" x="192" y="160" />
+		<callout x="48" y="48" pointer="Round" >
+			<comment><![CDATA[This is a layout - a diagram with tools.
+- Right-click the layout to create new tables. 
+- Double-click table headers to edit. 
+- For a better understanding of the schema, create multiple layouts.
+- Save the design to the model file, and deploy from 'Schema / Create into the database'.]]></comment>
+		</callout>
+		<script name="SQL_Editor" id="Editor-24a6" language="SQL" >
+			<string><![CDATA[CREATE SCHEMA test1;
+
+CREATE  TABLE test1.mytable ( 
+	col4                 VARCHAR(44)       ,
+	col2                 VARCHAR(66)       ,
+	col3                 VARCHAR(44)       ,
+	col1                 VARCHAR(77)       ,
+	column5              VARCHAR(87)       ,
+	col6                 VARCHAR(67)       ,
+	col7                 VARCHAR(44)       
+ ) engine=InnoDB;
+]]></string>
+		</script>
+	</layout>
+</project>
